@@ -1,0 +1,49 @@
+<?php
+   include_once 'database1.php';
+?>
+
+
+<html>
+<head>
+<title>Welcome </title>
+</head>
+<body>
+ 
+<ul>
+  <li><a class="active" href="welcome.php">Home</a></li>
+  <li><a href="insert.php">Add</a></li>
+  <li><a href="view.php">View</a></li>
+  <li><a href="logout.php">Sign Out</a></li>
+</ul>
+<center><h1>Hello!<br></h1><center>
+<marquee width="100%" direction="right" height="100px">
+
+<h1>
+You are Welcome! </h1></marquee>
+</body>
+</html>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
